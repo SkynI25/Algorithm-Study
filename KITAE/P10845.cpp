@@ -1,5 +1,4 @@
 #include <iostream>
-#include <cstdio>
 #include <string.h>
 #include <Windows.h>
 #define MAX 10001
