@@ -6,12 +6,14 @@
 
 <h3>핵심 : 재귀함수</h3>
 
+<img src = https://github.com/SkynI25/Algorithm-Study/blob/master/KITAE/DynamicProgramming/%EC%9D%B4%EB%AF%B8%EC%A7%80%201.png >
+
 <h3>DP 문제를 풀 때 중요한 것</h3>
 
-1. DP 인지? --> 재귀, 반복되는 요소가 있는지 파악
+1. DP 인지? ==> 재귀, 반복되는 요소가 있는지 파악
 
-2. 종료조건
+2. 종료조건 설정
 
-3. 반복부분 --> 코드화
+3. 반복부분 ==> 코드화
 
 4. 종합
