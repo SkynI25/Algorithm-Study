@@ -133,3 +133,5 @@ int Deque::getRear() {
 	return arr[rear];
 }
 ```
+
+출처 : https://www.geeksforgeeks.org/implementation-deque-using-circular-array/
