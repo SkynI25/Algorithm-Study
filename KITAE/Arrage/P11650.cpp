@@ -3,7 +3,6 @@
 #include <iostream>
 #include <vector>
 #include <algorithm>
-#include <Windows.h>
 
 using namespace std;
 
@@ -26,8 +25,6 @@ int main() {
 	for (auto obj : arr) {
 		cout << obj.first << " " << obj.second << '\n';
 	}
-
-	system("pause");
 
 	return 0;
 }
