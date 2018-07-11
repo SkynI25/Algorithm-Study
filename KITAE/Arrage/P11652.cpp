@@ -1,6 +1,7 @@
 #include <iostream>
 #include <vector>
 #include <algorithm>
+#include <Windows.h>
 
 using namespace std;
 
@@ -40,6 +41,8 @@ int main() {
 	}
 
 	cout << ans;
+	
+	system("pause");
 
 	return 0;
 }
