@@ -1,25 +1,24 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <iostream>
-#include <string>
+#include <cstring>
 using namespace std;
 
+char str[81];
 int main() {
 	int test = 0;
 	scanf("%d", &test);
-	string str = "";
-
-	while (test > 0) {
-		cin >> str;
+	while (test--) {
+		scanf("%s", str);
 		int cnt = 0;
-		for(char ch : str)
+		int sum = 0;
+		for(int i=0; str[i]; i++)
 		{
-			if (str.find("O") != string::npos) cnt++;
-			else cnt = 0;
+			str[i] == 'O' ? sum += ++cnt : cnt = 0;
 		}
-		printf("%d\n", cnt);
-		test--;
+		printf("%d\n", sum);
 	}
 
+	getchar();
 	getchar();
 	return 0;
 }
